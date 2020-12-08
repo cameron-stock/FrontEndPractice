@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>div and span</title>
+        <style>
+            .bluebox{
+                background-color: #261DAB;
+                color: white;
+                height: 100px;
+                width: auto;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                /* ellipsis ... */
+            }
+            .bluebox:hover{
+                overflow: visible;
+            }
+
+
+            .yellowbox{
+                background-color: yellow;
+                color: white;
+                height: 100px;
+                width: 400px;
+           /*     word-break: break-all;
+                word-break: keep-all; */
+                word-wrap: break-word;
+                overflow: hidden;
+
+            }
+            .greenbox{
+                background-color: #148d1a;
+                color: white;
+                height: 100px;
+                width: auto;
+            }
+            .great{
+                color: #ab1d1d;
+        
+            }
+        </style>
+
+    </head>
+
+    <body>
+            <div class="bluebox">
+                <p>Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux
+                    Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux
+                    Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux
+                    Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux
+                    Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux
+                    Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux
+                    Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux
+                    Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux Linux
+                    
+                </p>
+            </div>
+            <div class="yellowbox">
+                <p>Microsoft Microsoft Microsoft Microsoft Microsoft Microsoft Microsoft Microsoft Microsoft
+                    Microsoft Microsoft lllllllloooooooonnnnnngggggggggg   wwwwwooooorrrrrrrrdddddddddMicrosoft Microsoft Microsoft Microsoft Microsoft Microsoft Microsoft Microsoft
+                    Microsoft Microsoft Microsoft Microsoft Microsoft Microsoft Microsoft Microsoft Microsoft
+                    Microsoft Microsoft LOOOOoooooooonnnnnnnnngggggggggg wwwwwooooorrrrrrrrdddddddddMicrosoft Microsoft Microsoft Microsoft Microsoft Microsoft Microsoft
+                    Microsoft Microsoft Microsoft Microsoft Microsoft Microsoft Microsoft Microsoft Microsoft
+                    Microsoft Microsoft Microsoft Microsoft Microsoft Microsoft Microsoft Microsoft Microsoft
+
+                </p>
+            </div>
+            <div class="greenbox">
+                <p>Apple</p>
+            </div>
+            
+
+    </body>
+
+
+</html>
